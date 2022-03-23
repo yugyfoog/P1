@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SignupController</servlet-name>
+  	<display-name>SignupController</display-name>
+  	<description></description>
+  	<servlet-class>com.training.conrollers.SignupController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginControler</servlet-name>
+  	<display-name>LoginControler</display-name>
+  	<description></description>
+  	<servlet-class>com.training.conrollers.LoginControler</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginController</servlet-name>
+  	<display-name>LoginController</display-name>
+  	<description></description>
+  	<servlet-class>com.training.controllers.LoginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SubmitController</servlet-name>
+  	<display-name>SubmitController</display-name>
+  	<description></description>
+  	<servlet-class>com.training.controllers.SubmitController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EditControler</servlet-name>
+  	<display-name>EditControler</display-name>
+  	<description></description>
+  	<servlet-class>com.training.controllers.EditControler</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PasswordChangeController</servlet-name>
+  	<display-name>PasswordChangeController</display-name>
+  	<description></description>
+  	<servlet-class>com.training.controllers.PasswordChangeController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ApproveControloer</servlet-name>
+  	<display-name>ApproveControloer</display-name>
+  	<description></description>
+  	<servlet-class>com.training.controllers.ApproveControloer</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ByEmployeeController</servlet-name>
+  	<display-name>ByEmployeeController</display-name>
+  	<description></description>
+  	<servlet-class>com.training.controllers.ByEmployeeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SignupController</servlet-name>
+  	<url-pattern>/SignupController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginControler</servlet-name>
+  	<url-pattern>/LoginControler</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginController</servlet-name>
+  	<url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SubmitController</servlet-name>
+  	<url-pattern>/SubmitController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EditControler</servlet-name>
+  	<url-pattern>/EditControler</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PasswordChangeController</servlet-name>
+  	<url-pattern>/PasswordChangeController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ApproveControloer</servlet-name>
+  	<url-pattern>/ApproveControloer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ByEmployeeController</servlet-name>
+  	<url-pattern>/ByEmployeeController</url-pattern>
+  </servlet-mapping>
+</web-app>
