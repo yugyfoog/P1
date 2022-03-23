@@ -55,6 +55,6 @@ Resolved Reimbursement Requests For
 %>
 <hr/>
 <a href="employeehome.jsp">Home</a>
-<a href="index.hsp">Log Out</a>
+<a href="index.jsp">Log Out</a>
 </body>
 </html>
